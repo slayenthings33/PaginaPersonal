@@ -1,4 +1,5 @@
 let money = document.getElementById("money");
-let circle = docuemnt.getElementById("circle");
+// let circle = document.getElementById("circle");
 
-for (let i = 0; )
+money.onclick = event => event.target.src = "./img/circle.jpg";
+
