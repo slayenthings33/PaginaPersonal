@@ -1,0 +1,138 @@
+/*----------------------------*/
+/*--------GENERAL STYLE-------*/
+/*----------------------------*/
+
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    border: pink 1px dotted;
+    margin: 30px 50px; 
+    width: 500px;
+    font-family: 'Tangerine', cursive;
+}
+
+/*----------------------------*/
+/*----------FLEX-BOX----------*/
+/*----------------------------*/
+
+#segment1 {
+    display: flex;
+
+}
+
+#article1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+#titleContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/*----------------------------*/
+/*--------HEADER STYLE--------*/
+/*----------------------------*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFCC99;
+    height: 100px;
+}
+
+
+/*----------------------------*/
+/*--------NAVBAR STYLE-------*/
+/*----------------------------*/
+
+nav {
+    height: 40px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;   
+    background-color: #FFCC99;    
+}
+nav a{
+    padding: 5px 20px;
+    margin: 10px 10px;
+    text-transform: uppercase;
+    border: green 1px dotted;
+    font-family: 'Graduate', cursive;
+    background-color: indianred;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+#form {
+    background-color: hotpink;
+    border-radius: 20px;
+    position: absolute;
+    right: 20px;
+    top: 124px;
+}
+
+/*----------------------------*/
+/*---------FORM STYLE---------*/
+/*----------------------------*/
+
+#formContainer {
+
+    border: green dotted 1px;
+}
+
+form {
+    border: red dotted 1px;
+    margin: 50px 300px;
+    padding: 100px, 50px;
+}
+
+/*----------------------------*/
+/*----------IMG STYLE---------*/
+/*----------------------------*/
+
+#ccLogo {
+    height: 100px;
+    width: 30%;
+    border: dotted red 1px;
+}
+#money {
+    height: 200px;
+    width: 200px;
+}
+#circle {
+    height: 250px;
+    width: 250px;
+    display: none;
+}
+
+/*----------------------------*/
+/*------PSEUDO-SELECTORS------*/
+/*----------------------------*/
+
+#money:hover {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+/*----------------------------*/
+/*----------@FONTFACE---------*/
+/*----------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
